@@ -1,5 +1,8 @@
 # maplibre_react_template
-A template for a webgis portal made with maplibre and react.
+A template for a webgis portal made with maplibre, nextjs and react.
+
+# install the package manager (see nextjs documentation)
+```npm install -g pnpm```
 
 # Create next.js app
 ```npx create-next-app@latest```
