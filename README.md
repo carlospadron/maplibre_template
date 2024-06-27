@@ -1,13 +1,17 @@
 # maplibre_react_template
 A template for a webgis portal made with maplibre, nextjs and react.
+see nextjs documentation https://nextjs.org/learn/dashboard-app/getting-started
 
-# install the package manager (see nextjs documentation)
+# install the package manager 
 ```npm install -g pnpm```
 
 # Create next.js app
-```npx create-next-app@latest```
-Follow the steps. I recommend checking the option of using a src directory.
-
+```
+npx create-next-app@latest webgis --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+cd webgis
+pnpm i
+pnpm dev
+```
 # VS code
 
 Install extension ESLint.
@@ -18,3 +22,6 @@ Install Prettier extension to reformat code. Adjust to format when save.
 
 # Browser
 Add react developer tools chrome extension.
+
+# Notes
+css/tailwind goes in global.css. Be sure the file is imported at layout.tsx.
