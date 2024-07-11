@@ -1,0 +1,16 @@
+.map-container {
+    position: relative;
+}
+  
+.webgis-logo {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    background-color: #525252; 
+    color: #ffffff; 
+    padding: 5px 10px;
+    font-size: 30px; 
+    font-weight: bold;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3); 
+}
