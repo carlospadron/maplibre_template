@@ -1,17 +1,41 @@
-# maplibre_react_template
-A template for a webgis portal made with maplibre, nextjs and react.
+# maplibre_tempalte
+A template for a webgis portal made with maplibre
+
+
+## angular
+install extension "angular language service"
+read https://github.com/angular/angular-cli
+
+quick summary:
+```npm install -g @angular/cli```
+```ng new webgis_angular```
+```
+cd webgis_angular
+ng serve
+```
+go to http://localhost:4200/
+## react
 see nextjs documentation https://nextjs.org/learn/dashboard-app/getting-started
 
-# install the package manager 
 ```npm install -g pnpm```
-
-# Create next.js app
+Run the following commands, say yes to use src folder.
 ```
-npx create-next-app@latest webgis --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+npx create-next-app@latest webgis --use-pnpm
 cd webgis
 pnpm i
 pnpm dev
 ```
+see site: http://localhost:3000/
+
+## vue
+read https://vuejs.org/guide/quick-start.html
+```npm create vue@latest```
+```cd webgis```
+```npm install```
+```npm install maplibre-gl```
+```npm run format```
+```npm run dev```
+
 # VS code
 
 Install extension ESLint.
