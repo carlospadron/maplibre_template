@@ -16,8 +16,8 @@ export class MapComponent implements OnInit {
     const map = new maplibregl.Map({
       container: 'map', 
       style: 'https://demotiles.maplibre.org/style.json', 
-      center: [-74.5, 40],
-      zoom: 9
+      center: [-1.2, 52.5],
+      zoom: 5
     });
   }
 }
