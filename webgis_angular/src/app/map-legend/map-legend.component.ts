@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './map-legend.component.css'
 })
 export class MapLegendComponent {
+  isExpanded = false;
 
+  toggleLegend() {
+    this.isExpanded = !this.isExpanded;
+  }
 }

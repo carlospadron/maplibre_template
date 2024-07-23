@@ -1,1 +1,8 @@
-<p>map-legend works!</p>
+<!-- Toggle Button -->
+<button (click)="toggleLegend()">Toggle Legend</button>
+
+<!-- Legend Panel -->
+<div class="map-legend" [class.expanded]="isExpanded">
+  <p>map-legend works!</p>
+  <!-- Legend items here -->
+</div>

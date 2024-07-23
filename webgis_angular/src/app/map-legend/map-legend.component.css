@@ -1,0 +1,22 @@
+.map-legend {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    transition: width 0.5s ease;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .map-legend.expanded {
+    width: 250px; /* Adjust as needed */
+  }
+  
+  button {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 1001; /* Above the legend for accessibility */
+  }
