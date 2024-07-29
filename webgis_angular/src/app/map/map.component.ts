@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MapService } from '../map.service';
 import maplibregl from 'maplibre-gl';
 
 @Component({
@@ -10,14 +11,15 @@ import maplibregl from 'maplibre-gl';
 })
 export class MapComponent implements OnInit {
 
-  constructor() { }
+  constructor(private mapService: MapService) { }
 
   ngOnInit(): void {
     const map = new maplibregl.Map({
       container: 'map', 
-      style: 'https://demotiles.maplibre.org/style.json', 
+      style: 'styles/osm.json', //default sytle //'https://demotiles.maplibre.org/style.json', 
       center: [-1.2, 52.5],
       zoom: 5
     });
+    this.mapService.setMap(map);
   }
 }

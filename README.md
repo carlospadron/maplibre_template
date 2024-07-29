@@ -20,3 +20,4 @@ read https://angular.dev/tutorials/first-app
 - adding maplibre:
     - modify angular.json to add "node_modules/maplibre-gl/dist/maplibre-gl.css" to styles i build and test
 - add new components: ```ng generate component new-comp```
+- add new service: ```ng generate service new-service```
