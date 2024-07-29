@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MapService } from '../map.service';
 
 @Component({
   selector: 'app-map-legend-item',
@@ -9,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class MapLegendItemComponent {
 
+  constructor(private mapService: MapService) { }
+
+  onSwitchStyle(styleUrl: string): void {
+    this.mapService.switchStyle(styleUrl);
+  }
 }
