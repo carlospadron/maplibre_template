@@ -8,6 +8,8 @@
     background-color: white;
     transition: width 0.5s ease;
     z-index: 1000; /* Ensure it's above other content */
+    display: flex;
+    flex-direction: column;
   }
   
   .map-legend.expanded {
@@ -22,4 +24,8 @@
     right: 0;
     top: 50%;
     z-index: 1001; /* Above the legend for accessibility */
+  }
+
+  .map-legend-basemap {
+    margin-bottom: 10px; /* Add some space between the buttons */
   }

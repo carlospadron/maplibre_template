@@ -3,6 +3,6 @@
 
 <!-- Legend Panel -->
 <div class="map-legend" [class.expanded]="isExpanded">
-  <app-map-legend-item></app-map-legend-item>
-  <!-- Legend items here -->
+  <app-map-legend-basemap [styleUrl]="'styles/osm.json'" [styleName]="'OSM Style'"></app-map-legend-basemap>
+  <app-map-legend-basemap [styleUrl]="'https://demotiles.maplibre.org/style.json'" [styleName]="'Another Style'"></app-map-legend-basemap>
 </div>
