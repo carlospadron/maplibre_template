@@ -24,4 +24,4 @@ read https://angular.dev/tutorials/first-app
 - add new service: ```ng generate service new-service```
 
 ### Deploy
-ng build --prod
+ng build
