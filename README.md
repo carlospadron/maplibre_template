@@ -12,6 +12,7 @@ read https://github.com/angular/angular-cli
 - change to project and install maplibre: ```
     cd webgis_angular
     npm install maplibre-gl```
+    add maplibre-gl.css to angunlar.json
 - serve site: ```ng serve```
 - go to http://localhost:4200/
 
