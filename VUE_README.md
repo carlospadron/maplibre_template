@@ -13,10 +13,3 @@ read https://vuejs.org/guide/quick-start.html
 - serve site: ```npm run dev```
 - go to http://localhost:5173/
 
-### dev
-read https://angular.dev/tutorials/first-app
-- add new components: ```ng generate component new-comp```
-- add new service: ```ng generate service new-service```
-
-### Deploy
-npm run build
