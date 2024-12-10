@@ -1,15 +1,23 @@
 # Svelte
 install extension "svelte"
-read https://svelte.dev/tutorial/svelte/welcome-to-svelte
+read https://www.skeleton.dev/docs/get-started
 
 ### initial setup
-- create project: ```npx sv create```
+- create project: ```
+    npm create skeleton-app@latest webgis_skeleton
+```
 - change to project and install maplibre: 
 ```
-    cd webgis_svelte
+    cd webgis_skeleton
     npm install
     npm install maplibre-gl
 ```
 - serve site: ```npm run dev```
 - go to http://localhost:5173/
 
+
+
+
+
+
+						

@@ -1,0 +1,22 @@
+{
+    "version": 8,
+    "name": "Google Sat Style",
+    "sources": {
+      "google-sat-tiles": {
+        "type": "raster",
+        "tiles": [
+          "http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}"
+        ],
+        "tileSize": 256
+      }
+    },
+    "layers": [
+      {
+        "id": "google-sat-tiles",
+        "type": "raster",
+        "source": "google-sat-tiles",
+        "minzoom": 0,
+        "maxzoom": 19
+      }
+    ]
+  }

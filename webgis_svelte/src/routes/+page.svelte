@@ -1,24 +1,19 @@
 <script>
-    import { onMount } from 'svelte';
-    import maplibregl from 'maplibre-gl';
+	import Map from '$lib/components/Map.svelte';
+  </script>
   
-    let mapContainer;
+  <main>
+	<Map />
+  </main>
   
-    onMount(() => {
-      const map = new maplibregl.Map({
-        container: mapContainer,
-        style: 'https://demotiles.maplibre.org/style.json', // Specify the style URL
-        center: [0, 0], // Initial map center in [lon, lat]
-        zoom: 2 // Initial map zoom level
-      });
-    });
-</script>
-
-<div bind:this={mapContainer} class="map-container"></div>
-
-<style>
-.map-container {
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-}
-</style>
+  <style>
+	main {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  width: 100%;
+	  height: 100vh; /* Full viewport height */
+	  margin: 0;
+	  padding: 0;
+	}
+  </style>
