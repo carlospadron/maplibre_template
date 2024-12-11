@@ -4,4 +4,7 @@ GEOPACKAGE_PATH=data/oproad_gpkg_gb/Data/oproad_gb.gpkg
 LAYER=road_link
 
 ogr2ogr -t_srs EPSG:3857 data/data.json $GEOPACKAGE_PATH $LAYER
-tippecanoe -zg --projection=EPSG:3857 -o data/data.pmtiles -l $LAYER data/data.json
+#all zoom levels
+#tippecanoe -zg --projection=EPSG:3857 -o data/data.pmtiles -l $LAYER data/data.json
+#zoom levels 7 beyond
+tippecanoe -Z7 --projection=EPSG:3857 -o data/data.pmtiles -l $LAYER data/data.json
