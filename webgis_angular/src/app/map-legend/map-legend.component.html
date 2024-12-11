@@ -1,8 +1,0 @@
-<!-- Toggle Button -->
-<button (click)="toggleLegend()">Legend</button>
-
-<!-- Legend Panel -->
-<div class="map-legend" [class.expanded]="isExpanded">
-  <app-map-legend-basemap [styleUrl]="'styles/osm.json'" [styleName]="'OSM Style'"></app-map-legend-basemap>
-  <app-map-legend-basemap [styleUrl]="'styles/google_sat.json'" [styleName]="'Google Sat Style'"></app-map-legend-basemap>
-</div>
