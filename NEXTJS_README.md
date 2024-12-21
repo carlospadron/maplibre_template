@@ -8,6 +8,7 @@ read https://nextjs.org/
     cd webgis_nextjs
     npm install
     npm install maplibre-gl
+    npm install baseui@next styletron-engine-monolithic styletron-react
 ```
 - serve site: ```npm run dev```
 - go to http://localhost:5173/

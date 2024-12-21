@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "baseui": "^0.0.0-next-18f01efe0",
     "maplibre-gl": "^4.7.1",
     "next": "15.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "styletron-engine-monolithic": "^1.0.0",
+    "styletron-react": "^6.1.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
