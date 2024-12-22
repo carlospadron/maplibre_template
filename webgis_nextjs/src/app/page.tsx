@@ -1,10 +1,10 @@
 "use client";
 
 import Map from "../components/Map";
+import Navigation from "@/components/Navigation";
 import { Client as Styletron } from "styletron-engine-monolithic";
 import { Provider as StyletronProvider } from "styletron-react";
 import { LightTheme, BaseProvider, styled } from "baseui";
-import { StatefulInput } from "baseui/input";
 
 const engine = new Styletron();
 
@@ -20,7 +20,7 @@ export default function Home() {
     <StyletronProvider value={engine}>
       <BaseProvider theme={LightTheme}>
         <Centered>
-          <StatefulInput />
+          <Navigation />
           <Map />
         </Centered>
       </BaseProvider>
