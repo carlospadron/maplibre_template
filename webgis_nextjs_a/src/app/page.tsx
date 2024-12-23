@@ -15,7 +15,7 @@ const Home: React.FC = () => {
         Webgis
       </Header>
       <Layout>
-        <Sider width={256}>
+        <Sider width={150}>
           <Navigation />
         </Sider>
         <Content>

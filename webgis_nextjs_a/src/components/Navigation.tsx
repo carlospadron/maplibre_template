@@ -28,7 +28,7 @@ const items = [
 const Navigation: React.FC = () => {
   return (
     <Menu
-      style={{ width: 256, height: '100vh' }}
+      style={{ width: 150, height: '100vh' }}
       defaultSelectedKeys={['1']}
       mode="inline"
       items={items}
