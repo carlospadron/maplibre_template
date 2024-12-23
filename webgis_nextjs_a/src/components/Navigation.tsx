@@ -4,22 +4,27 @@ import { AppstoreOutlined, InfoCircleOutlined, TableOutlined } from '@ant-design
 
 const items = [
   {
-    key: '1',
-    icon: <AppstoreOutlined />,
-    label: 'Layers',
-  },
-  {
-    key: '2',
-    icon: <InfoCircleOutlined />,
-    label: 'Info',
-  },
-  {
-    key: '3',
-    icon: <TableOutlined />,
-    label: 'Table',
+    key: 'group',
+    type: 'group',
+    children: [
+      {
+        key: '1',
+        icon: <AppstoreOutlined />,
+        label: 'Layers',
+      },
+      {
+        key: '2',
+        icon: <InfoCircleOutlined />,
+        label: 'Info',
+      },
+      {
+        key: '3',
+        icon: <TableOutlined />,
+        label: 'Table',
+      },
+    ],
   },
 ];
-
 const Navigation: React.FC = () => {
   return (
     <Menu

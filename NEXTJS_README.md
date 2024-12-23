@@ -16,6 +16,7 @@ read https://nextjs.org/
 - go to http://localhost:5173/
 
 ### ant design
+- read https://ant.design/docs/react/introduce
 - create project: ```npx create-next-app@latest webgis_nextjs_a```
 - change to project and install maplibre: 
 ```
