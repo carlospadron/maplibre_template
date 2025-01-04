@@ -1,0 +1,7 @@
+- create script that uploads data to local postgresql instance
+- test script
+- prepare cicd for github
+- set ecs
+- allow ecs to connect to s3
+- allow ecs to connect to password manager
+- test script in ecs
