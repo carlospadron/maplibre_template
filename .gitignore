@@ -1,3 +1,4 @@
 data
 secret_management/aws
 database/.env
+.env
